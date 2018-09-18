@@ -22,7 +22,7 @@ function multiply(arg1, arg2){
         result += arg1;
     } 
     return -result;
-   } else if (arg1 === 0){
+   } else if ((arg1 === 0) || (arg2 === 0)) {
        return 0;
    }
     
